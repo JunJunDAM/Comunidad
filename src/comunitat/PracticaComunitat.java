@@ -62,6 +62,10 @@ public class PracticaComunitat {
         }
     }
 
+    public static void callateya(){
+        
+    }
+    
     public static void limpieza() {
         List<String> lista = new ArrayList<>();
         List<String> lista2 = new ArrayList<>();
