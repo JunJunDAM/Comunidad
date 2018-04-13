@@ -23,6 +23,7 @@ public class Despeses {
         this.zona = zona;
     }
 
+    
     @Override
     public String toString() {
         return "Despeses{" + "identificacio=" + identificacio + ", descripcio=" + descripcio + ", importe=" + importe + ", zona=" + zona + "}" + "\n";

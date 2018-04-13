@@ -20,6 +20,7 @@ public class Zona {
         this.tipus = tipus;
     }
 
+    
     @Override
     public String toString() {
         return "Zona{" + "identificacio=" + identificacio + ", nom=" + nom + ", tipus=" + tipus + '}';

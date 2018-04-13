@@ -25,6 +25,7 @@ public class Comunitat {
         return "Comunidad{" + "identificacio=" + identificacio + ", nom=" + nom + ", poblacio=" + poblacio + '}';
     }
     
+    
     public String getIdentificacio() {
         return identificacio;
     }

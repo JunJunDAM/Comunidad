@@ -21,6 +21,7 @@ public class Propietari {
         this.correu = correu;
     }
 
+    
     @Override
     public String toString() {
         return "Propietari{" + "nom=" + nom + ", poblacio=" + poblacio + ", correu=" + correu + '}';

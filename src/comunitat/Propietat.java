@@ -26,6 +26,7 @@ public class Propietat {
         this.lugar = lugar;
     }
 
+    
     @Override
     public String toString() {
         return "Propietat{" + "tipus=" + tipus + ", codiPropietat=" + codiPropietat + ", metros2=" + metros2 + ", codiPropietari=" + codiPropietari + ", percentatges=" + percentatges + ", lugar=" + lugar + '}';
