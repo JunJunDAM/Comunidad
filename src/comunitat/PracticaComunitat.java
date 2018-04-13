@@ -63,7 +63,7 @@ public class PracticaComunitat {
         System.out.println(comunidadTXT.size());
 
         String[] datos = null;
-        
+
         //Borro los espacios vacios del Comunitats.txt
         for (int i = 0; i < comunidadTXT.size(); i++) {
             if (comunidadTXT.get(i).isEmpty()) {
@@ -73,13 +73,22 @@ public class PracticaComunitat {
         System.out.println("***");
         System.out.println(datos[1]);
         System.out.println("***");
+
+        System.out.println("Comunitat : " + lista1.size());
+        System.out.println(lista1);
+        System.out.println("Zona : " + lista2.size());
+        System.out.println(lista2);
+        System.out.println("Propietat : " + lista3.size());
+        System.out.println(lista3);
+        System.out.println("Propietari : " + lista4.size());
+        System.out.println(lista4);
         
-        for (int i = 0; i < comunidadTXT.size(); i++) {
+        /*for (int i = 0; i < comunidadTXT.size(); i++) {
             
             String line = comunidadTXT.get(i);
             
             
-           /* if (comunidadTXT.get(i).equalsIgnoreCase("#Comunitat")) {
+           if (comunidadTXT.get(i).equalsIgnoreCase("#Comunitat")) {
                 String p = comunidadTXT.get(i);
                 char pp = p.charAt(0);
                 String ppp = String.valueOf(pp);
@@ -117,18 +126,9 @@ public class PracticaComunitat {
                 while (!ppp.equalsIgnoreCase("#")) {
                     lista4.add(comunidadTXT.get(i));
                 }
-            }*/
+            }
 
-        }
-
-        System.out.println("Comunitat : " + lista1.size());
-        System.out.println(lista1);
-        System.out.println("Zona : " + lista2.size());
-        System.out.println(lista2);
-        System.out.println("Propietat : " + lista3.size());
-        System.out.println(lista3);
-        System.out.println("Propietari : " + lista4.size());
-        System.out.println(lista4);
+        }*/
 
         /*for (int i = 0; i < comunidadTXT.size(); i++) {
             //Cojo el primer caracter de cada linea
@@ -163,50 +163,74 @@ public class PracticaComunitat {
  /*}*/
     }
 
-    /*
-        String[] datos = null;
-        String[] datos2 = null;
+    /*String[] datos = null;
+    String[] datos2 = null;
 
-        //Separo y añado en lista por #
-        for (int i = 0; i < comunidadTXT.size(); i++) {
+    //Separo y añado en lista por #
+    for (int i = 0;
+
+    i< comunidadTXT.size ();
+    i
+
+    
+        ++) {
             datos = comunidadTXT.get(i).split("#");
-            lista1.add(datos[0]);
-        }
-        //System.out.println(lista1);
-        datos2 = lista1.get(0).split(" ");
-        System.out.println(datos2[0]);
-     */
- /*lista1.add(datos[0]);
-        System.out.println(lista1);*/
+        lista1.add(datos[0]);
+    }
 
- /*for (int i = 0; i < comunidadTXT.size(); i++) {
+    System.out.println (lista1);
+    datos2  = lista1.get(0).split(" ");
+
+    System.out.println (datos2 
+
+    [0]);
+     
+    lista1.add (datos 
+
+    [0]);
+    System.out.println (lista1);
+
+    for (int i = 0;
+
+    i< comunidadTXT.size ();
+    i
+
+    
+        ++) {
             String p = comunidadTXT.get(i);
-            char pp = p.charAt(0);
-            String ppp = String.valueOf(pp);
-            if (ppp.equalsIgnoreCase("#")) {
-                System.out.println(comunidadTXT.get(i));
-                comunidadTXT.remove(comunidadTXT.get(i));
-            } else if (ppp.equalsIgnoreCase(".")) {
-                System.out.println(comunidadTXT.get(i));
-                comunidadTXT.remove(comunidadTXT.get(i));
-            } else {
-                lista2.add(comunidadTXT.get(i));
-                
-            }
-        }*/
-    //System.out.println(lista2);
-    /*String[] datos2 = lista.get(0).split(" ");
-            for(int i = 0; i < datos.length;i++){
+        char pp = p.charAt(0);
+        String ppp = String.valueOf(pp);
+        if (ppp.equalsIgnoreCase("#")) {
+            System.out.println(comunidadTXT.get(i));
+            comunidadTXT.remove(comunidadTXT.get(i));
+        } else if (ppp.equalsIgnoreCase(".")) {
+            System.out.println(comunidadTXT.get(i));
+            comunidadTXT.remove(comunidadTXT.get(i));
+        } else {
+            lista2.add(comunidadTXT.get(i));
+
+        }
+    }
+
+    System.out.println (lista2);
+    String[] datos2 = lista.get(0).split(" ");
+    for(int i = 0;
+    i< datos.length ;
+    i
+
+    
+        ++){
                 System.out.println(datos[0]);
-            }*/
+    }
 
- /*String identificacio = datos[0];
-            String nom = datos[1];
-            String poblacio = datos[2];
+    String identificacio = datos[0];
+    String nom = datos[1];
+    String poblacio = datos[2];
 
-            Comunitat comunitat = new Comunitat(identificacio, nom, poblacio);
-            listaComunidad.add(comunitat);*/
-    //}
+    Comunitat comunitat = new Comunitat(identificacio, nom, poblacio);
+
+    listaComunidad.add (comunitat);
+}
 
     /*public static void procesar(int i) {
         String[] datos = comunidadTXT.get(i).split(";");
