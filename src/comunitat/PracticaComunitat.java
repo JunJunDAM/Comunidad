@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -45,7 +46,7 @@ public class PracticaComunitat {
             while (des.hasNext()) {
                 despesesTXT.add(des.nextLine());
             }
-
+            
             limpieza();
 
         } catch (FileNotFoundException ex) {
@@ -55,25 +56,50 @@ public class PracticaComunitat {
 
     public static void limpieza() {
         List<String> lista1 = new ArrayList<>();
-        List lista2 = new ArrayList();
-        List lista3 = new ArrayList();
-        List lista4 = new ArrayList();
+        List<String> lista2 = new ArrayList<>();
+        List<String> lista3 = new ArrayList<>();
+        List<String> lista4 = new ArrayList<>();
 
         HashMap<String, String> comunidadHS = new HashMap<>();
         System.out.println(comunidadTXT.size());
 
         String[] datos = null;
+        String linea = "";
+        int j = 0;
 
-        //Borro los espacios vacios del Comunitats.txt
         for (int i = 0; i < comunidadTXT.size(); i++) {
-            if (comunidadTXT.get(i).isEmpty()) {
-                datos = comunidadTXT.get(i).split(" ");
+            linea = comunidadTXT.get(i);
+            if (linea.isEmpty()) {
+                comunidadTXT.remove(comunidadTXT.get(i));
             }
         }
-        System.out.println("***");
-        System.out.println(datos[1]);
-        System.out.println("***");
 
+        
+        //While para Guardar Comunidad en lista1
+        while (j < 46) {
+            linea = comunidadTXT.get(j);
+            if (linea.equalsIgnoreCase("#Zona")) {
+                return;
+            }
+            lista1.add(linea);
+            comunidadTXT.remove(comunidadTXT.get(j));
+        }
+        j=0;
+        while(j<46){
+            linea = comunidadTXT.get(j);
+            if(linea.equalsIgnoreCase("#Propietat")){
+                return;
+            }
+            lista2.add(linea);
+            comunidadTXT.remove(comunidadTXT.get(j));
+        }
+        j=0;
+        while(j<46){
+            linea = comunidadTXT.get(j);
+            lista3.add(linea);
+            comunidadTXT.remove(comunidadTXT.get(j));
+        }
+        
         System.out.println("Comunitat : " + lista1.size());
         System.out.println(lista1);
         System.out.println("Zona : " + lista2.size());
@@ -82,8 +108,8 @@ public class PracticaComunitat {
         System.out.println(lista3);
         System.out.println("Propietari : " + lista4.size());
         System.out.println(lista4);
-        
-        /*for (int i = 0; i < comunidadTXT.size(); i++) {
+
+ /*for (int i = 0; i < comunidadTXT.size(); i++) {
             
             String line = comunidadTXT.get(i);
             
@@ -130,7 +156,7 @@ public class PracticaComunitat {
 
         }*/
 
-        /*for (int i = 0; i < comunidadTXT.size(); i++) {
+ /*for (int i = 0; i < comunidadTXT.size(); i++) {
             //Cojo el primer caracter de cada linea
             String p = comunidadTXT.get(i);
             char pp = p.charAt(0);
