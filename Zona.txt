@@ -1,0 +1,5 @@
+#Zona
+E;Escala;P
+G;Garatge;I
+C;Zona Comu;I
+

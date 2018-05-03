@@ -1,30 +1,37 @@
-package comunitat;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Domain;
 
 /**
  *
  * @author alu2015059
  */
-public class Propietari {
+public class Comunitat {
+    private String identificacio;
     private String nom;
     private String poblacio;
-    private String correu;
 
-    public Propietari(String nom, String poblacio, String correu) {
+    public Comunitat(String identificacio, String nom, String poblacio) {
+        this.identificacio = identificacio;
         this.nom = nom;
         this.poblacio = poblacio;
-        this.correu = correu;
     }
 
-    
     @Override
     public String toString() {
-        return "Propietari{" + "nom=" + nom + ", poblacio=" + poblacio + ", correu=" + correu + '}';
+        return "Comunidad{" + "identificacio=" + identificacio + ", nom=" + nom + ", poblacio=" + poblacio + '}';
+    }
+    
+    
+    public String getIdentificacio() {
+        return identificacio;
+    }
+
+    public void setIdentificacio(String identificacio) {
+        this.identificacio = identificacio;
     }
 
     public String getNom() {
@@ -41,14 +48,6 @@ public class Propietari {
 
     public void setPoblacio(String poblacio) {
         this.poblacio = poblacio;
-    }
-
-    public String getCorreu() {
-        return correu;
-    }
-
-    public void setCorreu(String correu) {
-        this.correu = correu;
     }
     
 }

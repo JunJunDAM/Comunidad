@@ -1,0 +1,17 @@
+#Propietari
+01;Jorge Salas;Alcorcon (Madrid);jsalas@uoc.edu
+02;Jaime Rodriguez;Sabadell (Barcelona);jrodriguez@uoc.edu
+03;Nestor Crespo;Barcelona (Barcelona); ncrespo@uoc.edu
+04;Maria Gutierrez;Barcelona (Barcelona);mgutierrez@uoc.edu
+05;Miguel Palacios;Barcelona (Barcelona);mpalacios@uoc.edu
+06;Nuria Mas;Barcelona (Barcelona);nmas@uoc.edu
+07;Ricardo Torres;Barcelona (Barcelona);rtorres@uoc.edu
+08;Tomas Asensio;Barcelona (Barcelona);tasensio@uoc.edu
+09;Enrique Alos;Barcelona (Barcelona);ealos@uoc.edu
+10;Pedro Navarra;Barcelona (Barcelona);pnavarra@uoc.edu
+11;Sergio Briban;Barcelona (Barcelona);sbriban@uoc.edu
+12;Carlos Escudero;Barcelona (Barcelona);cescudero@uoc.edu
+13;Ruben Palencia;Barcelona (Barcelona);rpalencia@uoc.edu
+14;Paula Cabos;Barcelona (Barcelona);pcabos@uoc.edu
+15;Juan Tenorio;Barcelona (Barcelona);jtenorio@uoc.edu
+.La presidenta de la comunitat de l'any 2008 es 04 Maria Gutierrez
