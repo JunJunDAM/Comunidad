@@ -1,0 +1,23 @@
+PROPIETATS : 
+-------------------------------------------------------------
+Codi : 0-A, Metres^2 : 80, Propietari : 04 Maria Gutierrez, Quotes : E-8, Informacio : Local Banc Mundial dedicat a Banca
+Codi : 0-B, Metres^2 : 90, Propietari : 05 Miguel Palacios, Quotes : E-9, Informacio : Local Hercules dedicat a Assegurances
+Codi : 0-C, Metres^2 : 90, Propietari : 06 Nuria Mas, Quotes : E-9, Informacio : Local Caprabo dedicat a Alimentacio
+Codi : 1-A, Metres^2 : 90, Propietari : 07 Ricardo Torres, Quotes : E-9,C-12, Informacio : Pis habitual amb 2 havitacions
+Codi : 1-B, Metres^2 : 100, Propietari : 08 Tomas Asensio, Quotes : E-10,C-14, Informacio : Pis habitual amb 3 havitacions
+Codi : 1-C, Metres^2 : 100, Propietari : 09 Enrique Alos, Quotes : E-10,C-14, Informacio : Pis no habitual amb 3 havitacions
+Codi : 2-A, Metres^2 : 150, Propietari : 01 Jorge Salas, Quotes : E-15,C-20, Informacio : Pis habitual amb 4 havitacions
+Codi : 2-B, Metres^2 : 150, Propietari : 02 Jaime Rodriguez, Quotes : E-15,C-20, Informacio : Pis habitual amb 4 havitacions
+Codi : 2-C, Metres^2 : 150, Propietari : 03 Nestor Crespo, Quotes : E-15,C-20, Informacio : Pis no habitual amb 4 havitacions
+Codi : P01, Metres^2 : 12, Propietari : 14 Paula Cabos, Quotes : G-10, Informacio : Garatge Obert 
+Codi : P02, Metres^2 : 12, Propietari : 15 Juan Tenorio, Quotes : G-10, Informacio : Garatge Obert 
+Codi : P03, Metres^2 : 15, Propietari : 01 Jorge Salas, Quotes : G-10, Informacio : Garatge Obert amb traster
+Codi : P04, Metres^2 : 15, Propietari : 02 Jaime Rodriguez, Quotes : G-10, Informacio : Garatge Obert amb traster
+Codi : P05, Metres^2 : 15, Propietari : 03 Nestor Crespo, Quotes : G-10, Informacio : Garatge Obert amb traster
+Codi : P06, Metres^2 : 15, Propietari : 04 Maria Gutierrez, Quotes : G-10, Informacio : Garatge Tancat 
+Codi : P07, Metres^2 : 15, Propietari : 10 Pedro Navarra, Quotes : G-10, Informacio : Garatge Tancat 
+Codi : P08, Metres^2 : 15, Propietari : 11 Sergio Briban, Quotes : G-10, Informacio : Garatge Tancat 
+Codi : P09, Metres^2 : 15, Propietari : 12 Carlos Escudero, Quotes : G-10, Informacio : Garatge Tancat 
+Codi : P10, Metres^2 : 15, Propietari : 13 Ruben Palencia, Quotes : G-10, Informacio : Garatge Tancat 
+-------------------------------------------------------------
+Total de propietats : 19

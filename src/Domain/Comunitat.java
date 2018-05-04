@@ -10,28 +10,28 @@ package Domain;
  * @author alu2015059
  */
 public class Comunitat {
-    private String identificacio;
+    private String id_Comunitat;
     private String nom;
     private String poblacio;
 
     public Comunitat(String identificacio, String nom, String poblacio) {
-        this.identificacio = identificacio;
+        this.id_Comunitat = identificacio;
         this.nom = nom;
         this.poblacio = poblacio;
     }
 
     @Override
     public String toString() {
-        return "Comunidad{" + "identificacio=" + identificacio + ", nom=" + nom + ", poblacio=" + poblacio + '}';
+        return "Comunidad{" + "identificacio=" + id_Comunitat + ", nom=" + nom + ", poblacio=" + poblacio + '}';
     }
     
     
     public String getIdentificacio() {
-        return identificacio;
+        return id_Comunitat;
     }
 
     public void setIdentificacio(String identificacio) {
-        this.identificacio = identificacio;
+        this.id_Comunitat = identificacio;
     }
 
     public String getNom() {

@@ -10,12 +10,12 @@ package Domain;
  * @author alu2015059
  */
 public class Zona {
-    private char identificacio;
+    private char id_Zona;
     private String nom;
     private char tipus;
 
     public Zona(char identificacio, String nom, char tipus) {
-        this.identificacio = identificacio;
+        this.id_Zona = identificacio;
         this.nom = nom;
         this.tipus = tipus;
     }
@@ -23,15 +23,15 @@ public class Zona {
     
     @Override
     public String toString() {
-        return "Zona{" + "identificacio=" + identificacio + ", nom=" + nom + ", tipus=" + tipus + '}';
+        return "Zona{" + "identificacio=" + id_Zona + ", nom=" + nom + ", tipus=" + tipus + '}';
     }
 
     public char getIdentificacio() {
-        return identificacio;
+        return id_Zona;
     }
 
     public void setIdentificacio(char identificacio) {
-        this.identificacio = identificacio;
+        this.id_Zona = identificacio;
     }
 
     public String getNom() {

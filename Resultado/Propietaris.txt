@@ -1,0 +1,19 @@
+PROPIETARIS : 
+-------------------------------------------------------------
+ID : 01, Nom: Jorge Salas, Correu : jsalas@uoc.edu, Propietats : 
+ID : 02, Nom: Jaime Rodriguez, Correu : jrodriguez@uoc.edu, Propietats : 
+ID : 03, Nom: Nestor Crespo, Correu :  ncrespo@uoc.edu, Propietats : 
+ID : 04, Nom: Maria Gutierrez, Correu : mgutierrez@uoc.edu, Propietats : 
+ID : 05, Nom: Miguel Palacios, Correu : mpalacios@uoc.edu, Propietats : 
+ID : 06, Nom: Nuria Mas, Correu : nmas@uoc.edu, Propietats : 
+ID : 07, Nom: Ricardo Torres, Correu : rtorres@uoc.edu, Propietats : 
+ID : 08, Nom: Tomas Asensio, Correu : tasensio@uoc.edu, Propietats : 
+ID : 09, Nom: Enrique Alos, Correu : ealos@uoc.edu, Propietats : 
+ID : 10, Nom: Pedro Navarra, Correu : pnavarra@uoc.edu, Propietats : 
+ID : 11, Nom: Sergio Briban, Correu : sbriban@uoc.edu, Propietats : 
+ID : 12, Nom: Carlos Escudero, Correu : cescudero@uoc.edu, Propietats : 
+ID : 13, Nom: Ruben Palencia, Correu : rpalencia@uoc.edu, Propietats : 
+ID : 14, Nom: Paula Cabos, Correu : pcabos@uoc.edu, Propietats : 
+ID : 15, Nom: Juan Tenorio, Correu : jtenorio@uoc.edu, Propietats : 
+-------------------------------------------------------------
+Total de propietaris : 15

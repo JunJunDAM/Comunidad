@@ -10,42 +10,43 @@ package Domain;
  * @author alu2015059
  */
 public class Propietat {
-    private char tipus;
-    private String codiPropietat;
+    private String tipus;
+    private String id_Propietat;
     private int metros2;
-    private String codiPropietari;
+    private Propietari id_Propietari;
     private String percentatges;
     private String lugar;
+    private String maas;
 
-    public Propietat(char tipus, String codiPropietat, int metros2, String codiPropietari, String percentatges, String lugar) {
+    public Propietat(String tipus, String id_Propietat, int metros2, Propietari id_Propietari, String percentatges, String lugar, String maas) {
         this.tipus = tipus;
-        this.codiPropietat = codiPropietat;
+        this.id_Propietat = id_Propietat;
         this.metros2 = metros2;
-        this.codiPropietari = codiPropietari;
+        this.id_Propietari = id_Propietari;
         this.percentatges = percentatges;
         this.lugar = lugar;
+        this.maas = maas;
     }
 
-    
     @Override
     public String toString() {
-        return "Propietat{" + "tipus=" + tipus + ", codiPropietat=" + codiPropietat + ", metros2=" + metros2 + ", codiPropietari=" + codiPropietari + ", percentatges=" + percentatges + ", lugar=" + lugar + '}';
+        return "Propietat{" + "tipus=" + tipus + ", id_Propietat=" + id_Propietat + ", metros2=" + metros2 + ", id_Propietari=" + id_Propietari + ", percentatges=" + percentatges + ", lugar=" + lugar + ", maas=" + maas + '}';
     }
 
-    public char getTipus() {
+    public String getMaas() {
+        return maas;
+    }
+
+    public void setMaas(String maas) {
+        this.maas = maas;
+    }
+
+    public String getTipus() {
         return tipus;
     }
 
-    public void setTipus(char tipus) {
+    public void setTipus(String tipus) {
         this.tipus = tipus;
-    }
-
-    public String getCodiPropietat() {
-        return codiPropietat;
-    }
-
-    public void setCodiPropietat(String codiPropietat) {
-        this.codiPropietat = codiPropietat;
     }
 
     public int getMetros2() {
@@ -56,12 +57,20 @@ public class Propietat {
         this.metros2 = metros2;
     }
 
-    public String getCodiPropietari() {
-        return codiPropietari;
+    public String getId_Propietat() {
+        return id_Propietat;
     }
 
-    public void setCodiPropietari(String codiPropietari) {
-        this.codiPropietari = codiPropietari;
+    public void setId_Propietat(String id_Propietat) {
+        this.id_Propietat = id_Propietat;
+    }
+
+    public Propietari getId_Propietari() {
+        return id_Propietari;
+    }
+
+    public void setId_Propietari(Propietari id_Propietari) {
+        this.id_Propietari = id_Propietari;
     }
 
     public String getPercentatges() {
@@ -79,6 +88,4 @@ public class Propietat {
     public void setLugar(String lugar) {
         this.lugar = lugar;
     }
-    
-    
 }

@@ -11,13 +11,13 @@ package Domain;
  * @author alu2015059
  */
 public class Propietari {
-    private String identificacio;
+    private String id_Propietari;
     private String nom;
     private String poblacio;
     private String correu;
 
     public Propietari(String identificacio, String nom, String poblacio, String correu) {
-        this.identificacio = identificacio;
+        this.id_Propietari = identificacio;
         this.nom = nom;
         this.poblacio = poblacio;
         this.correu = correu;
@@ -25,15 +25,15 @@ public class Propietari {
 
     @Override
     public String toString() {
-        return "Propietari{" + "identificacio=" + identificacio + ", nom=" + nom + ", poblacio=" + poblacio + ", correu=" + correu + '}';
+        return "Propietari{" + "id_Propietari=" + id_Propietari + ", nom=" + nom + ", poblacio=" + poblacio + ", correu=" + correu + '}';
     }
 
-    public String getIdentificacio() {
-        return identificacio;
+    public String getId_Propietari() {
+        return id_Propietari;
     }
 
-    public void setIdentificacio(String identificacio) {
-        this.identificacio = identificacio;
+    public void setId_Propietari(String id_Propietari) {
+        this.id_Propietari = id_Propietari;
     }
 
     public String getNom() {

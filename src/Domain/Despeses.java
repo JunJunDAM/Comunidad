@@ -11,30 +11,24 @@ package Domain;
  * @author alu2015059
  */
 public class Despeses {
-    private String identificacio;
+    private String id_Despeses;
     private String descripcio;
     private Double importe;
-    private char zona;
+    private Zona zona;
 
-    public Despeses(String identificacio, String descripcio, Double importe, char zona) {
-        this.identificacio = identificacio;
+    public Despeses(String id_Despeses, String descripcio, Double importe, Zona zona) {
+        this.id_Despeses = id_Despeses;
         this.descripcio = descripcio;
         this.importe = importe;
         this.zona = zona;
     }
 
-    
-    @Override
-    public String toString() {
-        return "Despeses{" + "identificacio=" + identificacio + ", descripcio=" + descripcio + ", importe=" + importe + ", zona=" + zona + "}" + "\n";
+    public String getId_Despeses() {
+        return id_Despeses;
     }
 
-    public String getIdentificacio() {
-        return identificacio;
-    }
-
-    public void setIdentificacio(String identificacio) {
-        this.identificacio = identificacio;
+    public void setId_Despeses(String id_Despeses) {
+        this.id_Despeses = id_Despeses;
     }
 
     public String getDescripcio() {
@@ -53,14 +47,12 @@ public class Despeses {
         this.importe = importe;
     }
 
-    public char getZona() {
+    public Zona getZona() {
         return zona;
     }
 
-    public void setZona(char zona) {
+    public void setZona(Zona zona) {
         this.zona = zona;
     }
-    
-    
     
 }

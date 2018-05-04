@@ -1,0 +1,6 @@
+ESTADISTIQUES : 
+Comunitats : 1
+Zones : 3
+Propietats : 19
+Propietaris : 15
+Despeses : 13
